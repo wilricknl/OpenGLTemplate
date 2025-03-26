@@ -1,0 +1,16 @@
+{
+  "name": "opengl-template",
+  "version": "1.0.0",
+  "description": "OpenGL template with CMake and vcpkg",
+  "homepage": "https://github.com/wilricknl/OpenGLTemplate",
+  "dependencies": [
+    "entt",
+    "glad",
+    "glm",
+    "glfw3",
+    {
+      "name": "imgui",
+      "features": [ "docking-experimental", "freetype", "glfw-binding", "opengl3-binding" ]
+    }
+  ]
+}
